@@ -1,0 +1,75 @@
+/* 
+   fondo: #386641
+    casi fondo: #588042
+    verde lima o algo asi: #a7c957
+    fondo texto: #f2e8cf
+    contraste: #bc4749
+*/
+
+body {
+    background-color: #26452C;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Arial', sans-serif;
+}
+
+.copy {
+    background-color: #588042;
+    color: #ffffff;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.linav {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navprincipal {
+    background-color: #588042;
+    height: 60px;
+    margin-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.linkprincipal {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    line-height: 60px;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.navsecundario {
+    background-color: #588042;
+    height: 40px;
+}
+
+
+.linksecundario {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+.contenido {
+    background-color: #f2e8cf;
+    color: #000000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
