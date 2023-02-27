@@ -6,22 +6,42 @@
     contraste: #bc4749
 */
 
-body {
-    background-color: #26452C;
+/* general */
+body,
+nav,
+ul,
+ol {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #26452C;
     font-family: 'Arial', sans-serif;
 }
+
+/* copyright y autores */
 
 .copy {
     background-color: #588042;
     color: #ffffff;
-    height: 60px;
-    line-height: 60px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
+    font-size: 14px;
 }
+
+/* listas  */
 
 .linav {
     display: inline;
@@ -29,41 +49,60 @@ body {
     text-decoration: none;
 }
 
+/* lista principal */
+
 .navprincipal {
     background-color: #588042;
-    height: 60px;
-    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.olnavprincipal {
     padding-left: 25px;
     padding-right: 25px;
+    height: 70px;
 }
 
 .linkprincipal {
     font-size: 18px;
     color: #ffffff;
     font-family: 'Arial', sans-serif;
-    line-height: 60px;
-    text-decoration: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 10px;
+    line-height: 70px;
 }
 
+.linavprimario {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* lista secundaria */
+
 .navsecundario {
-    background-color: #588042;
+    text-align: center;
+}
+
+.ulnavsecundario {
     height: 40px;
 }
 
-
 .linksecundario {
     font-size: 18px;
-    color: #ffffff;
-    text-align: center;
     line-height: 40px;
-    text-decoration: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #000000;
 }
+
+.linavsecundario {
+    background-color: #f2e8cf;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* contenido y otros */
 
 .contenido {
     background-color: #f2e8cf;
@@ -72,4 +111,8 @@ body {
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
