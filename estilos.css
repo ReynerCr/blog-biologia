@@ -26,7 +26,7 @@ a {
 }
 
 body {
-    background-color: #26452C;
+    background-color: #223F28;
     font-family: 'Arial', sans-serif;
 }
 
@@ -80,6 +80,7 @@ body {
 
 .navsecundario {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .ulnavsecundario {
@@ -111,8 +112,33 @@ body {
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+p {
+    text-indent: 2em;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.izq {
+    float: left;
+}
+
+.der {
+    float: right;
+}
+
+.imgcentrada {
+    display: block;
+    margin: auto;
 }
